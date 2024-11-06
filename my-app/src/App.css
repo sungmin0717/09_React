@@ -1,0 +1,47 @@
+.info{
+  width: 400px;
+  border: 2px solid black;
+  margin: 10px 0;
+}
+
+
+.count-container{
+  border: 3px solid coral;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.count-container *{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-container .btn{
+  width: 20px;
+  height: 20px;
+  background-color: aliceblue;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.count-container .plus-btn{
+  background-color: green;
+  color: rgb(0, 0, 0);
+}
+
+.count-container .minus-btn{
+  background-color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.count-container > h1{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
