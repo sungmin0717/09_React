@@ -8,6 +8,15 @@ import Props3 from './components/R05_Props3';
 import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
 import State3 from './components/R08_State3';
+
+
+
+import StateReview1 from './review/State_Review1';
+import StateReview2 from './review/State_Review2';
+
+import Context1 from './components/R09_Context1';
+import Context2 from './components/R10_Context2';
+import Context3 from './R11_Context3/Parent';
 // // R01_ClassComponent에서 expoert된 HTML 요소를
 // ClasssComponent라고 불른다
 // 기본적으로 //, /**/ 주석 사용 가능(JS니깐!)
@@ -50,14 +59,18 @@ function App() {
       <Props3 productName='라면' price='3000'/> */}
 
 
-
-      {/* <State1/> */}
-
-
-
-
-      {/* <State2 init='0'/> */}
-      <State3/>
+{/* 
+      <State1/>
+      <hr/>
+      <State2 init='0'/>
+      <hr/>
+      <State3/> */}
+      {/* State 복습 */}
+      {/* <StateReview1/> */}
+      {/* <StateReview2/> */}
+      {/* <Context1/> */}
+      {/* <Context2/> */}
+      <Context3/>
     </>    
   );
 }
